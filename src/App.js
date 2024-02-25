@@ -66,10 +66,10 @@ const App = () => {
 
   return (
     <div className="bg-[#dcf2f1] min-h-screen">
-      <div className="container mx-auto py-8">
+      <div className="container mx-5 py-8">
         <div className="mb-4 flex justify-between items-center">
           {/* Application title */}
-          <h1 className="md:text-4xl ml-2 md:ml-0 text-2xl font-normal young-serif-regular text-[#365486]">
+          <h1 className="md:text-4xl ml-2  text-2xl font-normal young-serif-regular text-[#365486]">
             Website Management Application
           </h1>
           {/* Button to toggle task form visibility */}
