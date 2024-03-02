@@ -54,78 +54,7 @@ const TaskItem = ({ task, onDeleteTask, onEditTask }) => {
   };
 
   return (
-    // <div className='bg-white p-6 rounded shadow-lg mb-2'>
-    //   <div className="flex flex-row justify-between">
-    //     <div>
-    //       <div className='flex flex-row'>
-    //         {/* Task title */}
-    //         <h3 className="md:text-xl text-lg text-[#365486] noto-serif font-bold mb-2" style={{ maxWidth: '70%' }}>
-    //           {task.title.charAt(0).toUpperCase() + task.title.slice(1).toLowerCase()}
-    //         </h3>
-    //         {/* Checkbox for task completion */}
-    //         <input
-    //           type="checkbox"
-    //           checked={completed}
-    //           onChange={handleToggleCompletion}
-    //           className="ml-3 mb-1 "
-    //           style={{ transform: 'scale(1.5)' }}
-    //         />
-    //       </div>
 
-    //       {/* Task description */}
-    //       <p className="text-gray-600  md:text-sm text-xs mb-2" style={{ maxWidth: '80%' }}>{task.description}</p>
-
-    //       {/* Task deadline, category, and priority */}
-    //       <p className="md:text-sm text-xs text-gray-500">Deadline: {task.deadline}</p>
-    //       <p className="md:text-sm text-xs text-gray-500">Category: {task.category}</p>
-    //       <p className="md:text-sm text-xs text-gray-500">Priority: {task.priority}</p>
-    //     </div>
-    //     <div>
-    //       {/* Task image */}
-    //       {task.img && typeof task.img === 'string' && (
-    //         <img
-    //           src={task.img}
-    //           alt="Task_Image"
-    //           className="object-cover shadow-md shadow-[#357a8c] rounded-sm"
-    //           style={{ maxWidth: '100%', height: 'auto' }} 
-    //         />
-    //       )}
-    //       {task.img && task.img instanceof File && (
-    //         <img
-    //           src={URL.createObjectURL(task.img)}
-    //           alt="Task_Image"
-    //           className="object-cover shadow-md shadow-[#357a8c] rounded-sm"
-    //           style={{ maxWidth: '100%', height: 'auto' }} 
-    //         />
-    //       )}
-    //     </div>
-    //   </div>
-    //   <div className="mt-4">
-    //     {/* Button to edit the task */}
-    //     <button
-    //       onClick={handleEdit}
-    //       className="bg-[#365486] text-white px-3 py-1 rounded mr-2 hover:bg-[#1c3156] transition duration-300"
-    //     >
-    //       Edit <EditNoteIcon />
-    //     </button>
-    //     {/* Button to delete the task */}
-    //     <button
-    //       onClick={handleDelete}
-    //       className="bg-[#7FC7D9] text-white px-3 py-1 rounded hover:bg-[#357a8c] transition duration-300"
-    //     >
-    //       Delete <RemoveCircleOutlineIcon />
-    //     </button>
-    //   </div>
-
-    //   {/* Notification for deadline proximity */}
-    //   {!completed && isDeadlineNear() && (
-    //     <p className="text-red-500">Deadline is near...!</p>
-    //   )}
-    //   {/* Notification for passed deadline */}
-    //   {!completed && isDeadlineOver() && (
-    //     <p className="text-red-500">Deadline passed and task incomplete ...!</p>
-    //   )}
-    // </div>
 
 <div className='bg-white p-6 rounded shadow-lg mb-2'>
   <div className="flex flex-col md:flex-row justify-between">
